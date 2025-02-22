@@ -8,7 +8,7 @@ public class OutOfOrderState implements VendingMachineState {
     }
 
     public void dispenseItem(VendingMachine machine) {
-        System.out.println("MVending machine is out of order. Cannot dispense items.");
+        System.out.println("Vending machine is out of order. Cannot dispense items.");
     }
 
     public void setOutOfOrder(VendingMachine machine) {
